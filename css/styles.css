@@ -2,7 +2,7 @@
 #hero {
     position: relative;
     min-height: 320px;
-    background: url('../images/img-setup.PNG') center center/cover no-repeat;
+    background: url('../images/banner/img-setup.PNG') center center/cover no-repeat;
     color: #c20000 !important;
     display: flex;
     align-items: center;

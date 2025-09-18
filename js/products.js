@@ -8,8 +8,7 @@ fetch("./data/products.json")
       producto.className = "col";
       producto.innerHTML = `
         <div class="card h-100">
-          <img src="https://via.placeholder.com/200x150?text=${encodeURIComponent(p.Producto)}" 
-              class="card-img-top" alt="${p.Producto}">
+          <img src="${p.Imagen}" class="card-img-top" alt="${p.Producto}">
           <div class="card-body">
             <h5 class="card-title">${p.Producto}</h5>
             <p class="card-text">Estado: ${p.Estado}</p>
