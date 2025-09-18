@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Informática - Productos de Tecnología</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Portada -->
+    <section class="bg-primary text-white text-center py-5 mb-4" id="hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold">D&D Informática</h1>
+            <p class="lead">Soluciones tecnológicas para tu vida y negocio. Descubre nuestro catálogo de productos y
+                servicios pensados para ti.</p>
+        </div>
+    </section>
+
+    <!-- Carrusel de Ofertas / Destacados / Combos -->
+    <div id="ofertasCarousel" class="carousel slide mb-5 container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#ofertasCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Oferta 1"></button>
+            <button type="button" data-bs-target="#ofertasCarousel" data-bs-slide-to="1" aria-label="Oferta 2"></button>
+            <button type="button" data-bs-target="#ofertasCarousel" data-bs-slide-to="2" aria-label="Oferta 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousel/p1.PNG" class="d-block w-100" alt="Combo Notebook + Mouse">
+                <div class="carousel-caption bg-white bg-opacity-85 rounded">
+                    <h5>Combo Notebook + Mouse</h5>
+                    <p>¡Aprovecha el combo especial para estudiantes y profesionales!</p>
+                </div>
+                    <div class="carousel-caption rounded w-100 text-center position-static mt-2" style="background:rgba(255,255,255,0.97);color:#c20000;">
+                        <h5>Combo Notebook + Mouse</h5>
+                        <p>¡Aprovecha el combo especial para estudiantes y profesionales!</p>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel/p2.PNG" class="d-block w-100" alt="Oferta Accesorios">
+                <div class="carousel-caption rounded w-100 text-center position-static mt-2" style="background:rgba(255,255,255,0.97);color:#c20000;">
+                    <h5>Accesorios en Oferta</h5>
+                    <p>Descuentos en teclados, auriculares y más.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel/p3.PNG" class="d-block w-100" alt="PC Gamer Destacado">
+                <div class="carousel-caption rounded w-100 text-center position-static mt-2" style="background:rgba(255,255,255,0.97);color:#c20000;">
+                    <h5>PC Gamer Destacado</h5>
+                    <p>La mejor potencia y rendimiento para gaming.</p>
+                </div>
+            </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#ofertasCarousel" data-bs-slide="prev" style="filter: invert(1);">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#ofertasCarousel" data-bs-slide="next" style="filter: invert(1);">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+    </div>
+
+    <!-- Catálogo de productos -->
+    <section id="catalogo" class="container mb-5">
+        <h2 class="mb-4 text-center">Catálogo de Productos</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4" id="productos-grilla">
+            <!-- Los productos se generan automáticamente con JS -->
+        </div>
+        <div class="text-center mt-4">
+            <small>¿No encuentras lo que buscas? <a href="#contacto">Contáctanos</a></small>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <footer id="contacto" class="bg-light py-5 mt-5">
+        <div class="container">
+            <h2 class="mb-3">Contacto</h2>
+            <p>¿Tienes dudas o necesitas asesoría? Escríbenos por WhatsApp o correo electrónico.</p>
+            <ul class="list-unstyled">
+                <li><strong>Email:</strong> <a href="mailto:info@dndinformatica.com">info@dndinformatica.com</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/549XXXXXXXXXX" target="_blank">+54 XXXXXXXXXX</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>

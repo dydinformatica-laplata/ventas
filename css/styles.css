@@ -1,0 +1,69 @@
+/* Hero con imagen de fondo y superposición amarilla */
+#hero {
+    position: relative;
+    min-height: 320px;
+    background: url('../images/img-setup.PNG') center center/cover no-repeat;
+    color: #c20000 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(255, 230, 0, 0.85); /* Amarillo con opacidad */
+    z-index: 1;
+}
+#hero .container {
+    position: relative;
+    z-index: 2;
+}
+    
+#hero h1, #hero p {
+    color: #c20000 !important;
+}
+#ofertasCarousel .carousel-item img {
+    max-height: 180px;
+    width: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+#ofertasCarousel .carousel-caption {
+    background: rgba(255, 230, 0, 0.85);
+    color: #c20000 !important;
+    text-shadow: 1px 1px 2px #fff;
+}
+#ofertasCarousel h5, #ofertasCarousel p {
+    color: #c20000 !important;
+}
+#ofertasCarousel .carousel-caption {
+    background: rgba(255,255,255,0.85);
+    color: #c20000 !important;
+    text-shadow: none;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    display: block !important;
+}
+body {
+    background-color: #fff;
+    color: #212529;
+}
+h2, h5, .fw-bold {
+    color: #c20000;
+}
+.btn-success, .btn-outline-primary {
+    background-color: #c20000 !important;
+    color: #ffe600 !important;
+    border-color: #c20000 !important;
+}
+.btn-success:hover, .btn-outline-primary:hover {
+    background-color: #a80000 !important;
+    color: #fff !important;
+}
+a {
+    color: #c20000;
+}
+a:hover {
+    color: #a80000;
+}
