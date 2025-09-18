@@ -15,9 +15,9 @@ fetch("./data/products.json")
             <p class="fw-bold">$${p.Precio}</p>
           </div>
           <div class="card-footer text-center">
-            <a href="https://wa.me/549XXXXXXXXXX?text=Hola%2C%20quiero%20comprar%20${encodeURIComponent(p.Producto)}" 
+            <a href="https://wa.me/5492216540569?text=Hola%2C%20quiero%20comprar%20${encodeURIComponent(p.Producto)}" 
               target="_blank" class="btn btn-success mb-2">Comprar por WhatsApp</a>
-            <a href="mailto:info@dndinformatica.com?subject=Pedido%20${encodeURIComponent(p.Producto)}" 
+            <a href="mailto:dydinformatica.laplata@gmail.com?subject=Pedido%20${encodeURIComponent(p.Producto)}" 
               class="btn btn-outline-primary">Comprar por Email</a>
           </div>
         </div>
