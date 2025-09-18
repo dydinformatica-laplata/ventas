@@ -53,12 +53,17 @@
     "Precio": " 4.000,00",
     "Estado": "En stock",
     "Imagen": "images/products/Pila AAA Energizer MAX E92 Alcalina 4 unidades.png"
-  }
-  ,
+  },
   {
     "Producto": "Convertidor Tv Box TV A Smart con control remoto + Instalación",
     "Precio": " 55.000,00",
     "Estado": "En stock",
     "Imagen": "images/products/Convertidor Tv Box TV A Smart con control remoto.png"
+  },
+  {
+    "Producto": "Cable Usb 3.0 Premium Macho A Macho 60 Cm Pc Notebook",
+    "Precio": " 3.600,00",
+    "Estado": "En stock",
+    "Imagen": "images/products/Cable Usb 3.0 Premium Macho A Macho 60 Cm Pc Notebook.png"
   }
 ]
