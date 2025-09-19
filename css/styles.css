@@ -1,3 +1,71 @@
+/* Mejoras visuales para las cards de productos */
+.card.h-100 {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10), 0 1.5px 4px rgba(0,0,0,0.13);
+    border: 2px solid #222;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #fff;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+.card.h-100:hover {
+    box-shadow: 0 12px 36px rgba(0,0,0,0.25), 0 4px 16px rgba(0,0,0,0.22);
+    border-color: #000;
+    z-index: 2;
+}
+.card-footer {
+    border-top: 2px solid #222;
+    background: #fafafa;
+    margin-top: auto;
+}
+.card-footer .btn {
+    margin: 0 0.2em;
+}
+/* Ajuste de altura uniforme para cards de productos */
+.card.h-100 {
+    display: flex;
+    flex-direction: column;
+}
+.card-img-top {
+        height: 220px;
+        object-fit: contain;
+        background: #fff;
+        width: 100%;
+        max-width: 100%;
+}
+@media (max-width: 767.98px) {
+    .card-img-top {
+        height: 160px;
+    }
+}
+@media (max-width: 575.98px) {
+    .card-img-top {
+        height: 120px;
+    }
+}
+.card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+/* Iconos de contacto en el footer */
+.icono-contacto {
+    font-size: 1.2em;
+    vertical-align: middle;
+    margin-right: 0.4em;
+}
+.icono-facebook {
+    color: #1877f3;
+}
+.icono-instagram {
+    color: #e4405f;
+}
+.icono-whatsapp {
+    color: #25d366;
+}
+.icono-email {
+    color: #444;
+}
 /* Estado llamativo para productos en oferta */
 .oferta-label {
     color: #fff;
@@ -73,14 +141,29 @@ body {
 h2, h5, .fw-bold {
     color: #c20000;
 }
-.btn-success, .btn-outline-primary {
+.btn-success {
+    background-color: #c20000;
+    color: #fff;
+    border-color: #c20000;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.btn-success:hover {
+    background-color: #a80000;
+    color: #ffe600;
+    border-color: #a80000;
+}
+.btn-outline-primary {
+    background-color: #ffe600;
+    color: #c20000;
+    border-color: #c20000;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.btn-outline-primary:hover {
     background-color: #c20000;
     color: #ffe600;
     border-color: #c20000;
-}
-.btn-success:hover, .btn-outline-primary:hover {
-    background-color: #a80000;
-    color: #fff;
 }
 a {
     color: #c20000;

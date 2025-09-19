@@ -9,6 +9,8 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -64,44 +66,55 @@
     </div> -->
 
     <!-- Servicios -->
-    <!-- <section id="servicios" class="container mb-5">
-    <h2 class="mb-4 text-center">Servicios</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="servicios-grilla">
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h3 class="card-title h5">Mantenimiento de PC a distancia</h3>
-                    <p class="card-text">Solucionamos problemas desde cualquier lugar, revisamos tu equipo y realizamos ajustes sin necesidad de que lo traigas.</p>
+    <section id="servicios" class="container mb-5">
+        <h2 class="mb-4 text-center">Servicios</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="servicios-grilla">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Mantenimiento de PC a distancia</h3>
+                        <p class="card-text">Solucionamos problemas desde cualquier lugar, revisamos tu equipo y realizamos ajustes sin necesidad de que lo traigas.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://wa.me/5492216540569?text=Hola%2C%20quiero%20comprar%20${encodeURIComponent(p.Producto)}" 
+                        target="_blank" class="btn btn-success mb-2">Consultar</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h3 class="card-title h5">Reparación de PC y Notebook</h3>
-                    <p class="card-text">Mejoramos tu PC o notebook mediante diagnóstico y cambio de componentes.</p>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Reparación de PC y Notebook</h3>
+                        <p class="card-text">Mejoramos tu PC o notebook mediante diagnóstico y cambio de componentes.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <div>
+                            <a href="https://wa.me/5492216540569?text=Hola%2C%20quiero%20comprar%20${encodeURIComponent(p.Producto)}" 
+                            target="_blank" class="btn btn-success mb-2">Consultar</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h3 class="card-title h5">Clases de informática a distancia</h3>
-                    <p class="card-text">Clases personalizadas para aprender programación y conceptos de informática.</p>
+            <!--
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Clases de informática a distancia</h3>
+                        <p class="card-text">Clases personalizadas para aprender programación y conceptos de informática.</p>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
         </div>
         <div class="text-center mt-4">
             <small>¿Necesitás otro servicio? <a href="#contacto">Consultanos</a></small>
         </div>
-    </section> -->
+    </section>
 
     <!-- Catálogo de productos -->
     <section id="catalogo" class="container mb-5">
     <h2 class="mb-4 text-center">Catálogo de Productos</h2>
     <!-- Si agregas cards manuales, usa h3.h5 para títulos -->
-        <div class="row row-cols-1 row-cols-md-4 g-4" id="productos-grilla">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="productos-grilla">
             <!-- Los productos se generan automáticamente con JS -->
             <!-- Si agregas cards manuales, usa h3.h5 para títulos -->
         </div>
@@ -114,13 +127,13 @@
     <footer id="contacto" class="bg-light py-5 mt-5">
         <div class="container">
             <h2 class="mb-3">Contacto</h2>
-            <p>¿Tienes dudas o necesitas asesoría? Escríbenos por WhatsApp o correo electrónico.</p>
+            <p>¿Tienes dudas o necesitas asesoría? Escríbenos por WhatsApp.</p>
             <p class="mb-2"><strong>Ubicación:</strong> 657 y 22 - Zona Parque Sicardi - La Plata.</p>
             <ul class="list-unstyled">
-                <li><strong>Email:</strong> <a href="mailto:dydinformatica.laplata@gmail.com">dydinformatica.laplata@gmail.com</a></li>
-                <li><strong>WhatsApp:</strong> <a href="https://wa.me/5492216540569" target="_blank">+54 2216540569</a></li>
-                <li><strong>Facebook:</strong> <a href="https://www.facebook.com/dydinformatica.laplata" target="_blank">facebook.com/dydinformatica.laplata</a></li>
-                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/dydinformatica.laplata/" target="_blank">@dydinformatica.laplata</a></li>
+                <li><strong>Email:</strong> <a href="mailto:dydinformatica.laplata@gmail.com"><i class="bi bi-envelope-fill icono-contacto icono-email"></i> dydinformatica.laplata@gmail.com</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/5492216540569" target="_blank"><i class="bi bi-whatsapp icono-contacto icono-whatsapp"></i> +54 2216540569</a></li>
+                <li><strong>Facebook:</strong> <a href="https://www.facebook.com/dydinformatica.laplata" target="_blank"><i class="bi bi-facebook icono-contacto icono-facebook"></i> dydinformatica.laplata</a></li>
+                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/dydinformatica.laplata/" target="_blank"><i class="bi bi-instagram icono-contacto icono-instagram"></i> @dydinformatica.laplata</a></li>
             </ul>
         </div>
     </footer>
