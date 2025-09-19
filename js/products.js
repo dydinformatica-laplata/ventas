@@ -10,7 +10,7 @@ fetch("./data/products.json")
         <div class="card h-100">
           <img src="${p.Imagen}" class="card-img-top" alt="${p.Producto}">
           <div class="card-body">
-            <h5 class="card-title">${p.Producto}</h5>
+            <h3 class="card-title h5">${p.Producto}</h3>
             <p class="card-text">Estado: ${p.Estado}</p>
             <p class="fw-bold">$${p.Precio}</p>
           </div>

@@ -1,9 +1,12 @@
+#hero .portada-desc {
+    font-weight: 600;
+}
 /* Hero con imagen de fondo y superposición amarilla */
 #hero {
     position: relative;
     min-height: 320px;
-    background: url('../images/banner/img-setup.PNG') center center/cover no-repeat;
-    color: #c20000 !important;
+    background: url('../images/banner/background.jpg') center center/cover no-repeat;
+    color: #c20000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +24,12 @@
 }
     
 #hero h1, #hero p {
-    color: #c20000 !important;
+    color: #c20000;
+    text-shadow:
+        2px 2px 4px #fff,
+        -2px -2px 4px #fff,
+        2px -2px 4px #fff,
+        -2px 2px 4px #fff;
 }
 #ofertasCarousel .carousel-item img {
     max-height: 180px;
@@ -31,19 +39,19 @@
 }
 #ofertasCarousel .carousel-caption {
     background: rgba(255, 230, 0, 0.85);
-    color: #c20000 !important;
+    color: #c20000;
     text-shadow: 1px 1px 2px #fff;
 }
 #ofertasCarousel h5, #ofertasCarousel p {
-    color: #c20000 !important;
+    color: #c20000;
 }
 #ofertasCarousel .carousel-caption {
     background: rgba(255,255,255,0.85);
-    color: #c20000 !important;
+    color: #c20000;
     text-shadow: none;
     border-radius: 0.5rem;
     padding: 1rem 1.5rem;
-    display: block !important;
+    display: block;
 }
 body {
     background-color: #fff;
@@ -53,13 +61,13 @@ h2, h5, .fw-bold {
     color: #c20000;
 }
 .btn-success, .btn-outline-primary {
-    background-color: #c20000 !important;
-    color: #ffe600 !important;
-    border-color: #c20000 !important;
+    background-color: #c20000;
+    color: #ffe600;
+    border-color: #c20000;
 }
 .btn-success:hover, .btn-outline-primary:hover {
-    background-color: #a80000 !important;
-    color: #fff !important;
+    background-color: #a80000;
+    color: #fff;
 }
 a {
     color: #c20000;
