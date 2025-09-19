@@ -11,7 +11,9 @@ fetch("./data/products.json")
           <img src="${p.Imagen}" class="card-img-top" alt="${p.Producto}">
           <div class="card-body">
             <h3 class="card-title h5">${p.Producto}</h3>
-            <p class="card-text">Estado: ${p.Estado}</p>
+            <p class="card-text">
+              Estado: ${p.Estado === 'EN OFERTA' ? '<span class=\'oferta-label\'>EN OFERTA</span>' : p.Estado}
+            </p>
             <p class="fw-bold">$${p.Precio}</p>
           </div>
           <div class="card-footer text-center">

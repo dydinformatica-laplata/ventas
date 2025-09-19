@@ -1,48 +1,11 @@
 [
   {
-    "Producto": "Adaptador de enchufe ADAPTOR All in One",
-    "Precio": " 2.500,00",
-    "Estado": "En stock",
-    "Imagen": "images/products/Adaptador de enchufe ADAPTOR All in One.png"
-  },
-  {
-    "Producto": "Consola Brick Game 9999 in 1 Standard color negro 1980",
-    "Precio": " 5.200,00",
-    "Estado": "En stock",
-    "Imagen": "images/products/Consola Brick Game 9999 in 1 Standard color negro 1980.png"
-
-  },
-  {
-    "Producto": "Pack 4 Paños Microfibra Multiuso Limpieza Auto Hogar Oficina Color Varios",
-    "Precio": " 5.000,00",
-    "Estado": "En stock",
-    "Imagen": "images/products/Pack 4 Paños Microfibra Multiuso Limpieza Auto Hogar Oficina Color Varios.png"
-  },
-  {
     "Producto": "Cargador Para Samsung Carga Super Rápida Tipo C 25w Color Negro",
     "Precio": " 18.000,00",
     "Estado": "EN OFERTA",
     "Imagen": "images/products/Cargador Para Samsung Carga Super Rápida Tipo C 25w Color Negro.png"
   },
   {
-    "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Natural",
-    "Precio": " 3.800,00",
-    "Estado": "En stock",
-    "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Natural.png"
-  },
-  {
-    "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Roble",
-    "Precio": " 5.600,00",
-    "Estado": "En stock",
-    "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Nogal.png"
-  },
-  {
-    "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Nogal",
-    "Precio": " 4.200,00",
-    "Estado": "En stock",
-    "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Roble.png"
-  },
-    {
     "Producto": "Pila AA Energizer MAX E91 Alcalina 4 unidades",
     "Precio": " 4.200,00",
     "Estado": "EN OFERTA",
@@ -71,5 +34,42 @@
     "Precio": " 3.600,00",
     "Estado": "En stock",
     "Imagen": "images/products/Cable De Red 2 Mts Cat. 5e Eeksong Internet PC.png"
+  },
+  {
+    "Producto": "Adaptador de enchufe ADAPTOR All in One",
+    "Precio": " 2.500,00",
+    "Estado": "En stock",
+    "Imagen": "images/products/Adaptador de enchufe ADAPTOR All in One.png"
+  },
+  {
+    "Producto": "Consola Brick Game 9999 in 1 Standard color negro 1980",
+    "Precio": " 5.200,00",
+    "Estado": "En stock",
+    "Imagen": "images/products/Consola Brick Game 9999 in 1 Standard color negro 1980.png"
+
+  },
+  {
+    "Producto": "Pack 4 Paños Microfibra Multiuso Limpieza Auto Hogar Oficina Color Varios",
+    "Precio": " 5.000,00",
+    "Estado": "En stock",
+    "Imagen": "images/products/Pack 4 Paños Microfibra Multiuso Limpieza Auto Hogar Oficina Color Varios.png"
+  },
+  {
+    "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Natural",
+    "Precio": " 3.800,00",
+    "Estado": "En stock",
+    "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Natural.png"
+  },
+  {
+    "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Roble",
+    "Precio": " 5.600,00",
+    "Estado": "En stock",
+    "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Nogal.png"
+  },
+  {
+    "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Nogal",
+    "Precio": " 4.200,00",
+    "Estado": "En stock",
+    "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Roble.png"
   }
 ]
