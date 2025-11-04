@@ -2,8 +2,54 @@
 #servicios-grilla .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     min-height: 120px;
+    padding: 1.5rem;
+}
+
+/* Ajustar ancho de columnas en el grid de servicios */
+#servicios-grilla .col {
+    max-width: 420px;
+    flex: 0 0 auto;
+}
+
+/* Ajustar el layout de servicios */
+.servicio-layout {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    gap: 1.5rem !important;
+}
+
+/* Centrar título e imagen en las cards de servicios */
+#servicios-grilla .card-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+#servicios-grilla .servicio-desc {
+    text-align: center;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+#servicios-grilla .servicio-img-hero {
+    width: 80%;
+    height: 220px;
+    object-fit: contain;
+    margin: 1rem auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #servicios-grilla .servicio-img-hero {
+        width: 90%;
+        height: 180px;
+    }
 }
 #servicios-grilla .card-title {
     margin-bottom: 1rem;
@@ -123,7 +169,7 @@
         -2px 2px 4px #fff;
 }
 #ofertasCarousel .carousel-item img {
-    max-height: 180px;
+    max-height: 460px;
     width: auto;
     margin: 0 auto;
     object-fit: contain;
@@ -180,4 +226,110 @@ a {
 }
 a:hover {
     color: #a80000;
+}
+
+/* Estilos para iconos en cards de servicios */
+.servicio-head h3.card-title {
+    color: #c20000;
+    font-weight: 800;
+}
+
+/* Layout: title + image (izquierda) y texto (derecha) */
+.servicio-layout {
+    display: flex;
+    /* permitir que el contenido haga wrap en pantallas angostas (landscape mobile) */
+    flex-wrap: wrap;
+    /* estirar filas para que ambas columnas tengan la misma altura cuando quepan */
+    align-items: stretch;
+    gap: 1rem;
+}
+.servicio-media {
+    /* fijar ancho base para la columna de imagen en escritorio */
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio-desc {
+    flex: 1 1 auto;
+    /* centrar verticalmente (eje Y) el contenido dentro de la columna derecha */
+    display: flex;
+    align-items: center; /* centra en Y */
+    justify-content: flex-start; /* mantener texto alineado a la izquierda en X */
+}
+
+/* Centrar horizontalmente el párrafo dentro de la columna derecha (eje X)
+   para que el bloque de texto quede alineado a la altura de la imagen */
+.servicio-desc p {
+    margin: 0; /* evitar márgenes que desplacen la alineación */
+    max-width: 520px; /* evita que el texto se expanda demasiado */
+    text-align: left; /* mantener alineación natural a la izquierda */
+}
+
+/* En móvil apilado, centramos el texto horizontalmente para mejor legibilidad */
+@media (max-width: 575.98px) {
+    .servicio-desc {
+        justify-content: center; /* centrar en X cuando las columnas se apilan */
+    }
+    .servicio-desc p {
+        text-align: center;
+    }
+}
+
+/* Imagen más grande, sin borde visible, con sombra para resaltar */
+.servicio-img-large {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 0.6rem;
+    background: #fff;
+    box-shadow: 0 14px 40px rgba(0,0,0,0.16);
+    padding: 10px;
+    border: none; /* sin borde */
+}
+@media (max-width: 991.98px) {
+    .servicio-img-large {
+        width: 180px;
+        height: 180px;
+    }
+    .servicio-media {
+        flex: 0 0 160px;
+    }
+}
+
+/* Manejo especial para pantallas intermedias (landscape móviles ~600-900px)
+   permitimos que la imagen y el texto se apilen si no hay espacio suficiente */
+@media (max-width: 900px) {
+    .servicio-layout {
+        /* permitir apilar columnas si es necesario */
+        gap: 0.8rem;
+    }
+    .servicio-media {
+        flex: 0 0 160px;
+    }
+    .servicio-img-large {
+        width: 160px;
+        height: 160px;
+    }
+    .servicio-desc p {
+        font-size: 0.98rem;
+    }
+}
+@media (max-width: 575.98px) {
+    .servicio-layout {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .servicio-img-large {
+        width: 140px;
+        height: 140px;
+        padding: 8px;
+    }
+    .servicio-media {
+        min-width: auto;
+    }
+    .servicio-desc {
+        width: 100%;
+    }
 }
