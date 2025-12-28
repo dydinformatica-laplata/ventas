@@ -17,8 +17,10 @@ fetch("./data/products.json")
             <p class="fw-bold">$${p.Precio}</p>
           </div>
           <div class="card-footer text-center">
-            <a href="https://wa.me/5492216540569?text=Hola%2C%20quiero%20comprar%20${encodeURIComponent(p.Producto)}" 
-              target="_blank" class="btn btn-success mb-2">Comprar por WhatsApp</a>
+            ${ (p.Estado && p.Estado.toLowerCase().trim() === 'sin stock') ?
+              `<button class="btn btn-secondary mb-2" disabled aria-disabled="true">Sin stock</button>` :
+              `<a href="https://wa.me/5492216540569?text=Hola%2C%20quiero%20comprar%20${encodeURIComponent(p.Producto)}" target="_blank" class="btn btn-success mb-2">Comprar por WhatsApp</a>`
+            }
           </div>
         </div>
       `;
