@@ -1,75 +1,104 @@
 [
   {
     "Producto": "Cargador Samsung Original con Carga Super Rápida Tipo C 25w Color Negro",
-    "Precio": " 20.000,00",
+    "Precio": " 20.000",
     "Estado": "EN OFERTA",
     "Imagen": "images/products/Cargador Para Samsung Carga Super Rápida Tipo C 25w Color Negro.png"
   },
   {
     "Producto": "Pila AA Energizer MAX E91 Alcalina (unidad)",
-    "Precio": " 1.600,00",
+    "Precio": " 1.600",
     "Estado": "En stock",
     "Imagen": "images/products/Pila AA Energizer MAX E91 Alcalina 4 unidades.png"
   },
   {
     "Producto": "Pila AAA Energizer MAX E92 Alcalina (unidad)",
-    "Precio": " 1.500,00",
+    "Precio": " 1.500",
     "Estado": "En stock",
     "Imagen": "images/products/Pila AAA Energizer MAX E92 Alcalina 4 unidades.png"
   },
   {
     "Producto": "Convertidor Tv Box TV A Smart con control remoto (incluye pilas)",
-    "Precio": " 34.000,00",
+    "Precio": " 34.000",
     "Estado": "EN OFERTA",
     "Imagen": "images/products/Convertidor Tv Box TV A Smart con control remoto.png"
   },
   {
+    "Producto": "Funda Protectora Para Celular Sumergible Bolsa Waterproof",
+    "Precio": " 2.500",
+    "Estado": "En stock",
+    "Imagen": "images/products/Funda Protectora Para Celular Sumergible Bolsa Waterproof.PNG"
+  },
+  {
+    "Producto": "Estuche portátil para accesorios electrónicos material EVA",
+    "Precio": " 4.500",
+    "Estado": "En stock",
+    "Imagen": "images/products/Estuche portátil para accesorios electrónicos material EVA.PNG"
+  },
+  {
+    "Producto": "Cámara De Seguridad Inalámbrica Exterior Noax + Memoria 64 Gb",
+    "Precio": " 49.999",
+    "Estado": "En stock",
+    "Imagen": "images/products/Cámara De Seguridad Inalámbrica Exterior Noax y memoria.png"
+  },
+  {
+    "Producto": "Auriculares In Ear Samsung Akg Manos Libres Cable Usb C - Negro",
+    "Precio": " 14.999",
+    "Estado": "En stock",
+    "Imagen": "images/products/Auriculares In Ear Samsung Akg Manos Libres Cable Usb C - Negro.png"
+  },
+  {
     "Producto": "Cable Usb 3.0 Premium Macho A Macho 60 Cm Pc Notebook",
-    "Precio": " 3.600,00",
+    "Precio": " 3.600",
     "Estado": "En stock",
     "Imagen": "images/products/Cable Usb 3.0 Premium Macho A Macho 60 Cm Pc Notebook.png"
   },
   {
     "Producto": "Cable De Red 2 Mts Cat. 5e Eeksong Internet PC",
-    "Precio": " 3.600,00",
+    "Precio": " 3.600",
     "Estado": "En stock",
     "Imagen": "images/products/Cable De Red 2 Mts Cat. 5e Eeksong Internet PC.png"
   },
   {
     "Producto": "Adaptador de enchufe ADAPTOR All in One",
-    "Precio": " 2.500,00",
-    "Estado": "En stock",
+    "Precio": " 2.500",
+    "Estado": "Sin stock",
     "Imagen": "images/products/Adaptador de enchufe ADAPTOR All in One.png"
   },
   {
     "Producto": "Consola Brick Game 9999 in 1 Standard color negro 1980",
-    "Precio": " 5.200,00",
+    "Precio": " 5.200",
     "Estado": "En stock",
     "Imagen": "images/products/Consola Brick Game 9999 in 1 Standard color negro 1980.png"
-
   },
   {
     "Producto": "Pack 4 Paños Microfibra Multiuso Limpieza Auto Hogar Oficina Color Varios",
-    "Precio": " 5.000,00",
+    "Precio": " 5.000",
     "Estado": "Sin stock",
     "Imagen": "images/products/Pack 4 Paños Microfibra Multiuso Limpieza Auto Hogar Oficina Color Varios.png"
   },
   {
     "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Natural",
-    "Precio": " 3.800,00",
+    "Precio": " 3.800",
     "Estado": "En stock",
     "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Natural.png"
   },
   {
     "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Roble",
-    "Precio": " 5.600,00",
+    "Precio": " 5.600",
     "Estado": "En stock",
     "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Nogal.png"
   },
   {
     "Producto": "Soporte Celular Escritorio Apoya Porta Celular Color Nogal",
-    "Precio": " 4.200,00",
+    "Precio": " 4.200",
     "Estado": "En stock",
     "Imagen": "images/products/Soporte Celular Escritorio Apoya Porta Celular Color Roble.png"
+  },
+  {
+    "Producto": "Clips Multifuncionales para Cables - Bridas de Nylon Duraderas (unidad)",
+    "Precio": " 200",
+    "Estado": "En stock",
+    "Imagen": "images/products/Clips Multifuncionales para Cables - Bridas de Nylon Duraderas.PNG"
   }
 ]
