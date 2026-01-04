@@ -2,8 +2,26 @@
   {
     "Producto": "Cargador Samsung Original con Carga Super Rápida Tipo C 25w Color Negro",
     "Precio": " 20.000",
-    "Estado": "EN OFERTA",
+    "Estado": "En stock",
     "Imagen": "images/products/Cargador Para Samsung Carga Super Rápida Tipo C 25w Color Negro.png"
+  },
+  {
+    "Producto": "Power Bank Cargador Portatil 20000mah Carga Rapida Mixio",
+    "Precio": " 35.000",
+    "Estado": "En stock",
+    "Imagen": "images/products/Power Bank Cargador Portatil 20000mah Carga Rapida Mixio.PNG"
+  },
+  {
+    "Producto": "Power Bank Cargador Portatil 20000mah Carga Rapida Lambo",
+    "Precio": " 32.000",
+    "Estado": "En stock",
+    "Imagen": "images/products/Power Bank Cargador Portatil 20000mah Carga Rapida Lambo.PNG"
+  },
+  {
+    "Producto": "Cargador Rapido Para Iphone 11 12 13 14 Pro Max Con Cable Blanco",
+    "Precio": " 25.000",
+    "Estado": "En stock",
+    "Imagen": "images/products/Cargador Rapido Para Iphone 11 12 13 14 Pro Max Con Cable Blanco.PNG"
   },
   {
     "Producto": "Pila AA Energizer MAX E91 Alcalina (unidad)",
@@ -22,6 +40,12 @@
     "Precio": " 34.000",
     "Estado": "EN OFERTA",
     "Imagen": "images/products/Convertidor Tv Box TV A Smart con control remoto.png"
+  },
+  {
+    "Producto": "Auriculares Inalámbricos A6S Bluetooth Negro",
+    "Precio": " 4.500",
+    "Estado": "En stock",
+    "Imagen": "images/products/Auriculares In Ear Samsung Akg Manos Libres Cable Usb C - Negro.PNG"
   },
   {
     "Producto": "Funda Protectora Para Celular Sumergible Bolsa Waterproof",
@@ -70,6 +94,12 @@
     "Precio": " 5.200",
     "Estado": "En stock",
     "Imagen": "images/products/Consola Brick Game 9999 in 1 Standard color negro 1980.png"
+  },
+  {
+    "Producto": "Cinta De Embalar Adhesiva Transparente 48x100",
+    "Precio": " 2.200",
+    "Estado": "En stock",
+    "Imagen": "images/products/Cinta De Embalar Adhesiva Transparente 48x100.PNG"
   },
   {
     "Producto": "Pack 4 Paños Microfibra Multiuso Limpieza Auto Hogar Oficina Color Varios",
