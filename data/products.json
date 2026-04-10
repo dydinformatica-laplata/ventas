@@ -36,10 +36,16 @@
     "Imagen": "images/products/Pila AAA Energizer MAX E92 Alcalina 4 unidades.png"
   },
   {
-    "Producto": "Convertidor Tv Box TV A Smart con control remoto (incluye pilas)",
-    "Precio": " 30.000",
+    "Producto": "Tv Box TV con control remoto (incluye pilas + guía + aplicaciones streaming)",
+    "Precio": " 40.000",
     "Estado": "EN OFERTA",
     "Imagen": "images/products/Convertidor Tv Box TV A Smart con control remoto.png"
+  },
+  {
+    "Producto": "Onn Stick con control remoto a voz (incluye pilas + guía + aplicaciones streaming)",
+    "Precio": " 70.000",
+    "Estado": "EN OFERTA",
+    "Imagen": "images/products/Convertidor TV Onn Stick con control remoto a voz.png"
   },
   {
     "Producto": "Auriculares Inalámbricos A6S Bluetooth Negro",
